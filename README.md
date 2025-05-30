@@ -5,14 +5,36 @@
 ###
 
 <div align="left">
-  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />
-  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-  <img src="https://img.shields.io/static/v1?message=HackerRank&logo=hackerrank&label=&color=2EC866&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="hackerrank logo"  />
-  <img src="https://img.shields.io/static/v1?message=TryHackMe&logo=tryhackme&label=&color=88cc14&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="tryhackme logo"  />
-  <img src="https://img.shields.io/static/v1?message=Visual%20Studio%20Marketplace&logo=visualstudio&label=&color=e2165e&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="visualstudio logo"  />
-  <img src="https://img.shields.io/static/v1?message=Codesandbox&logo=codesandbox&label=&color=040404&logoColor=DBDBDB&labelColor=&style=for-the-badge" height="35" alt="codesandbox logo"  />
-  <img src="https://img.shields.io/static/v1?message=Codepen&logo=codepen&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="codepen logo"  />
+  <!-- Discord Badge (No link available, so just the icon) -->
+  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo" />
+
+  <!-- HackerRank Badge (No username provided, generic icon) -->
+  <img src="https://img.shields.io/static/v1?message=HackerRank&logo=hackerrank&label=&color=2EC866&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="hackerrank logo" />
+
+  <!-- TryHackMe Badge -->
+  <a href="https://tryhackme.com/p/4424755" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=TryHackMe&logo=tryhackme&label=&color=88cc14&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="tryhackme logo" />
+  </a>
+
+  <!-- CodeSandbox -->
+  <img src="https://img.shields.io/static/v1?message=Codesandbox&logo=codesandbox&label=&color=040404&logoColor=DBDBDB&labelColor=&style=for-the-badge" height="35" alt="codesandbox logo" />
+
+  <!-- LinkedIn Badge -->
+  <a href="https://www.linkedin.com/in/sourav-rajak-6294682b2" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0A66C2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo" />
+  </a>
+
+  <!-- Codeforces Badge -->
+  <a href="https://codeforces.com/profile/morningstarxcdcode" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Codeforces&logo=codeforces&label=&color=1F8ACB&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="codeforces logo" />
+  </a>
+
+  <!-- LeetCode Badge -->
+  <a href="https://leetcode.com/your-username/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LeetCode&logo=leetcode&label=&color=FFA116&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="leetcode logo" />
+  </a>
 </div>
+
 
 ###
 
@@ -22,44 +44,18 @@
 
 ###
 
-I’m an independent developer specializing in building production-grade AI, cybersecurity, DevOps, and educational tools. My GitHub portfolio showcases real-world, open-source solutions designed to empower developers, students, and security professionals across all experience levels.
+As an independent developer, I am specialised in creating production-level AI, cybersecurity, DevOps, and educational tools. My GitHub portfolio presents real-world, open-source solutions that are designed to empower developers, students, and security professionals of all experience levels.
+
 
 🛠️ Tech Stack:
 
 
-⚛️ React – Component-based UI development
+⚛️ React 🌬️ Tailwind CSS  ⬢ Next.js 🐍 Python 🌶️ Flask ☸️ K3s 🔍 FAISS 🧠 ChromaDB 🌐 IPFS ⚙️ GitHub Actions etc...
 
 
-⬢ Next.js – Full-stack React framework
+I am fervently committed to reducing the accessibility barrier to advanced technology by developing user-friendly and contemporary tools. I excel in open-source environments and derive great satisfaction from creating browser-native experiences, automation systems, and scalable edge-first deployments.
 
-
-🌬️ Tailwind CSS – Utility-first CSS styling
-
-
-🐍 Python – Versatile scripting and backend development
-
-
-🌶️ Flask – Lightweight Python web framework
-
-
-☸️ K3s – Lightweight Kubernetes for edge computing
-
-
-🔍 FAISS – Fast vector search for AI/ML
-
-
-🧠 ChromaDB – AI-native database for embeddings
-
-🌐 IPFS – Decentralized file storage
-
-⚙️ GitHub Actions – CI/CD and automation workflows
-
-etc....
-
-
-I am deeply passionate about lowering the barrier to advanced technology by building accessible, modern tools. I thrive in open-source environments and love creating browser-native experiences, automation systems, and scalable edge-first deployments.
-
-I am a fast learner, curious problem-solver, and highly self-driven. I combine deep technical knowledge with AI-assisted workflows to complete complex tasks independently. Joining StackBlitz aligns perfectly with my mission to make web development more powerful, accessible, and future-ready.
+A voracious learner, I possess a knack for identifying and resolving complex problems. My self-driven approach seamlessly integrates profound technical expertise with AI-powered workflows, enabling me to independently complete intricate tasks. Joining StackBlitz harmoniously aligns with my aspiration to empower web development, enhance its accessibility, and prepare it for the future.
 
 
 ###
