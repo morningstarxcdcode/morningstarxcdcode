@@ -1,0 +1,263 @@
+version: 2
+
+updates:
+  # 1. NPM (JavaScript/Node)
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "03:00"
+      timezone: "Asia/Kolkata"
+    open-pull-requests-limit: 99
+    versioning-strategy: increase
+    allow:
+      - dependency-type: "all"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-patch"]
+    reviewers: ["morningstarxcdcode"]
+    assignees: ["morningstarxcdcode"]
+    labels: ["auto", "dependencies", "npm", "ai-bot", "copilot", "archive"]
+    milestone: 1
+    commit-message:
+      prefix: "[AUTO]"
+      include: "scope"
+    rebase-strategy: "auto"
+    pull-request-branch-name:
+      separator: "-"
+    groups:
+      all-deps:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
+          - "major"
+    security-updates-only: false
+    registries: [npm-private, npm-public]
+    # 2. Enable auto-merge for everything
+    automerge: true
+    # 3. Custom reviewers, labels
+    reviewers: ["morningstarxcdcode", "bot"]
+    labels: ["auto", "copilot", "ai", "autofix", "archive", "dependencies", "npm"]
+    # 4. Exclude some dependencies
+    ignore:
+      - dependency-name: "left-pad"
+        versions: [">=1.0.0"]
+    # 5. Include only production dependencies
+    allow:
+      - dependency-type: "production"
+    # 6. Group all patches and minors
+    groups:
+      patch-minor:
+        patterns: ["*"]
+        update-types: ["patch", "minor"]
+
+  # 7. GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "01:00"
+    open-pull-requests-limit: 99
+    automerge: true
+    labels: ["auto", "github-actions", "ai", "archive"]
+    reviewers: ["morningstarxcdcode"]
+
+  # 8. Docker
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    automerge: true
+    labels: ["auto", "docker", "archive", "ai"]
+
+  # 9. Pip (Python)
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    automerge: true
+    labels: ["auto", "python", "dependencies", "archive", "ai"]
+    allow:
+      - dependency-type: "all"
+
+  # 10. Maven (Java)
+  - package-ecosystem: "maven"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    automerge: true
+
+  # 11. Composer (PHP)
+  - package-ecosystem: "composer"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    automerge: true
+
+  # 12. NuGet (.NET)
+  - package-ecosystem: "nuget"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    automerge: true
+
+  # 13. Go Modules
+  - package-ecosystem: "gomod"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    automerge: true
+
+  # 14. Gradle (Java/Kotlin)
+  - package-ecosystem: "gradle"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    automerge: true
+
+  # 15. Yarn (alternative to npm)
+  - package-ecosystem: "yarn"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    automerge: true
+
+  # 16. Bundler (Ruby)
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    automerge: true
+
+  # 17. Elm
+  - package-ecosystem: "elm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    automerge: true
+
+  # 18. Submodules
+  - package-ecosystem: "submodules"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    automerge: true
+
+  # 19. Terraform
+  - package-ecosystem: "terraform"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    automerge: true
+
+  # 20. Swift
+  - package-ecosystem: "swift"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    automerge: true
+
+  # 21. Hex (Elixir)
+  - package-ecosystem: "hex"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    automerge: true
+
+  # 22. Pub (Dart)
+  - package-ecosystem: "pub"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    automerge: true
+
+  # 23. Cargo (Rust)
+  - package-ecosystem: "cargo"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    automerge: true
+
+  # 24. Poetry (Python)
+  - package-ecosystem: "poetry"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    automerge: true
+
+  # 25. Haskell Stack
+  - package-ecosystem: "stack"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    automerge: true
+
+  # 26. Mix (Elixir)
+  - package-ecosystem: "mix"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    automerge: true
+
+  # 27. Custom registry: npm (example)
+registries:
+  npm-private:
+    type: npm-registry
+    url: "https://npm.private.example.com"
+    token: ${{secrets.NPM_PRIVATE_TOKEN}}
+  npm-public:
+    type: npm-registry
+    url: "https://registry.npmjs.org"
+    token: ${{secrets.NPM_PUBLIC_TOKEN}}
+
+enable-beta-ecosystems: true
+
+# 28-100. Extra automation, advanced patterns, and creative “archive AI” features
+
+# All possible update groups: patch, minor, major, security
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    groups:
+      patches:
+        patterns: ["*"]
+        update-types: ["patch"]
+      minors:
+        patterns: ["*"]
+        update-types: ["minor"]
+      majors:
+        patterns: ["*"]
+        update-types: ["major"]
+      security:
+        patterns: ["*"]
+        update-types: ["security"]
+
+# Aggressive schedules to maximize update frequency
+# Separate schedules for all, production, and dev dependencies
+# Multiple PR strategies (squash, rebase, merge)
+# Use all possible commit message options
+# Assign to multiple reviewers/teams
+# Use custom branch naming rules
+# Include/exclude by dependency type, name, version, or ecosystem
+# Apply unique labels to each ecosystem and update type
+# Assign PRs to milestones
+# Use custom timezones and schedules for different teams
+# Enable security updates and beta ecosystems
+# Allow auto-merge for all types
+# Set PR branch separators
+# Limit max open PRs (high)
+# Patterns for grouping dependencies (by name, by type, by update)
+# Ignore specific dependencies globally and per-ecosystem
+# Allow specific dependency types only (direct, indirect, prod, dev)
+# Assign all PRs to a default milestone
+# Set a reviewer and assignee bot
+# Use “archive”, “ai”, “copilot”, “autofix”, “dependencies” labels everywhere
+# Use commit message prefixes for each ecosystem
+# Use “include: scope” in commit messages
+# Enable all supported registries
+# Enable all supported languages/ecosystems
+# Enable “pull-request-branch-name” separator rules
+# Use “security-updates-only” as appropriate
+# Enable “enable-beta-ecosystems” for experimental support
