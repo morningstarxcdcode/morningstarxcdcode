@@ -35,9 +35,9 @@
     alt="Stars"
   />
   <br/>
-  <!-- Top 5 Languages -->
+  <!-- Top 20 Languages -->
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=morningstarxcdcode&langs_count=5&layout=compact&hide_progress=false&theme=radical"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=morningstarxcdcode&langs_count=20&layout=compact&hide_progress=false&theme=radical"
     alt="Top Languages"
   />
 </p>
