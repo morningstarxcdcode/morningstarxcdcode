@@ -18,7 +18,7 @@
     alt="Trophies"
   />
   <br/>
-  <!-- Followers, Stars, Top Language -->
+  <!-- Followers and Stars -->
   <img
     src="https://img.shields.io/github/followers/morningstarxcdcode?style=social"
     alt="Followers"
@@ -27,9 +27,11 @@
     src="https://img.shields.io/github/stars/morningstarxcdcode?style=social"
     alt="Stars"
   />
+  <br/>
+  <!-- Top 5 Languages -->
   <img
-    src="https://img.shields.io/github/languages/top/morningstarxcdcode?layout=compact"
-    alt="Top Language"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=morningstarxcdcode&langs_count=5&layout=compact&hide_progress=false&theme=radical"
+    alt="Top Languages"
   />
 </p>
 
@@ -93,8 +95,6 @@
 
 ---
 
-
 ## 🎖️ Holopin Badges
 
-
-  [![An image of @morningstarxcd's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/morningstarxcd)](https://holopin.io/@morningstarxcd)
+[![An image of @morningstarxcd's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/morningstarxcd)](https://holopin.io/@morningstarxcd)
