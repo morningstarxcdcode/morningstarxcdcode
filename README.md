@@ -1,6 +1,13 @@
 <!-- ====== Header ====== -->
 <div align="center">
   <h1>👋 Hello there!</h1>
+<h1 align="center">
+  👋 Hi, I’m Sourav “morningstarxcd” Rajak
+</h1>
+<p align="center">
+  <em>Your future cybersecurity expert</em>
+</p>
+
   <p><em>Making 0s &amp; 1s dance since forever!</em></p>
   <p>
     <!-- Profile Views -->
