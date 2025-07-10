@@ -1,6 +1,6 @@
 <!-- ====== Header ====== -->
 <div align="center">
-  <h1>👋 Hello there!</h1>
+  <h1> Hello there!</h1>
 <h1 align="center">
   👋 Hi, I’m Sourav “morningstarxcd” Rajak
 </h1>
