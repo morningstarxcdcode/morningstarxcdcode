@@ -2,7 +2,7 @@
 <div align="center">
   <h1> Hello there!</h1>
 <h1 align="center">
-  👋 Hi, I’m Sourav “morningstarxcd” Rajak
+  👋 Hi, I’m Sourav “morningstarxcd”
 </h1>
 <p align="center">
   <em>Your future Cyber Security expert</em>
