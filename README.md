@@ -77,9 +77,6 @@
   <a href="https://codeforces.com/profile/morningstarxcdcode" target="_blank">
     <img src="https://img.shields.io/badge/Codeforces-Profile-1F8ACB?logo=codeforces&style=for-the-badge" alt="Codeforces"/>
   </a>
-  <a href="https://github.com/morningstarxcdcode" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub‑Repos-black?logo=github&style=for-the-badge" alt="GitHub"/>
-  </a>
   <a href="https://ctf.hackthebox.com/user/profile/777582" target="_blank">
     <img src="https://img.shields.io/badge/HackTheBox-Profile-000000?logo=hackthebox&style=for-the-badge" alt="HackTheBox"/>
   </a>
@@ -91,6 +88,9 @@
   </a>
   <a href="https://devfolio.co/@morningstarxcd" target="_blank">
     <img src="https://img.shields.io/badge/Devfolio-Profile-000000?logo=devfolio&style=for-the-badge" alt="Devfolio"/>
+  </a>
+  <a href="https://www.linkedin.com/in/sourav-rajak-6294682b2" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?logo=linkedin&style=for-the-badge" alt="LinkedIn"/>
   </a>
   <a href="https://unstop.com/u/souraraj35881" target="_blank">
     <img src="https://img.shields.io/badge/Unstop-Profile-FF4500?logo=unstop&style=for-the-badge" alt="Unstop"/>
